@@ -65,16 +65,16 @@ namespace Game3
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            Texture2D grass = Content.Load<Texture2D>("Block/grass");
-            Texture2D path = Content.Load<Texture2D>("Block/path");
-            Texture2D pathLT = Content.Load<Texture2D>("Block/pathLT");
-            Texture2D pathT = Content.Load<Texture2D>("Block/pathT");
-            Texture2D pathRT = Content.Load<Texture2D>("Block/pathRT");
-            Texture2D pathL = Content.Load<Texture2D>("Block/pathL");
-            Texture2D pathR = Content.Load<Texture2D>("Block/pathR");
-            Texture2D pathLD = Content.Load<Texture2D>("Block/pathLD");
-            Texture2D pathD = Content.Load<Texture2D>("Block/pathD");
-            Texture2D pathRD = Content.Load<Texture2D>("Block/pathRD");
+            Texture2D grass = Content.Load<Texture2D>("Block/grass");//0
+            Texture2D path = Content.Load<Texture2D>("Block/path");//1
+            Texture2D pathLT = Content.Load<Texture2D>("Block/pathLT");//2
+            Texture2D pathT = Content.Load<Texture2D>("Block/pathT");//3
+            Texture2D pathRT = Content.Load<Texture2D>("Block/pathRT");//4
+            Texture2D pathL = Content.Load<Texture2D>("Block/pathL");//5
+            Texture2D pathR = Content.Load<Texture2D>("Block/pathR");//6
+            Texture2D pathLD = Content.Load<Texture2D>("Block/pathLD");//7
+            Texture2D pathD = Content.Load<Texture2D>("Block/pathD");//8
+            Texture2D pathRD = Content.Load<Texture2D>("Block/pathRD");//9
             level.AddTexture(grass);// Add Block GPU
             level.AddTexture(path);
             level.AddTexture(pathLT);
